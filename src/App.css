@@ -11,8 +11,22 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  
 }
-
+.fondo{
+  background: linear-gradient(0.12turn,#ac44ac, #f80368);
+}
+#root {
+    display: block;
+}
+h1{
+  color: white;
+    padding: 3rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
