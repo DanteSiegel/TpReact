@@ -12,8 +12,7 @@ h2 {
     color: white;
   }
 
-  input[type="date"],
-  input[type="time"] {
+  input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
     height: 38px;
     padding: 6px 10px;
     background-color: #fff;
@@ -22,8 +21,15 @@ h2 {
     box-shadow: none;
     box-sizing: border-box;
   }
+  
 button{
   color: #FFF;
   background-color: #33C3F0;
   border-color: #33C3F0;
+}
+
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box;
 }
