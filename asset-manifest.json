@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DanteSiegel/TpReact.git/static/css/main.29691079.css",
+    "main.js": "/DanteSiegel/TpReact.git/static/js/main.12ed50bf.js",
+    "static/js/453.8c80987c.chunk.js": "/DanteSiegel/TpReact.git/static/js/453.8c80987c.chunk.js",
+    "index.html": "/DanteSiegel/TpReact.git/index.html",
+    "main.29691079.css.map": "/DanteSiegel/TpReact.git/static/css/main.29691079.css.map",
+    "main.12ed50bf.js.map": "/DanteSiegel/TpReact.git/static/js/main.12ed50bf.js.map",
+    "453.8c80987c.chunk.js.map": "/DanteSiegel/TpReact.git/static/js/453.8c80987c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29691079.css",
+    "static/js/main.12ed50bf.js"
+  ]
+}
