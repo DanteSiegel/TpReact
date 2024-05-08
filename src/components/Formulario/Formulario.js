@@ -62,6 +62,7 @@ const Formulario = ({ agregarCita }) => {
           <input
             type="text"
             value={mascota}
+            class="u-full-width"
             onChange={(e) => setMascota(e.target.value)}
           />
         </div>
@@ -70,6 +71,7 @@ const Formulario = ({ agregarCita }) => {
           <input
             type="text"
             value={dueno}
+            class="u-full-width"
             onChange={(e) => setDueno(e.target.value)}
           />
         </div>
@@ -78,6 +80,7 @@ const Formulario = ({ agregarCita }) => {
           <input
             type="date"
             value={fecha}
+            class="u-full-width"
             onChange={(e) => setFecha(e.target.value)}
           />
         </div>
@@ -86,6 +89,7 @@ const Formulario = ({ agregarCita }) => {
           <input
             type="time"
             value={hora}
+            class="u-full-width"
             onChange={(e) => setHora(e.target.value)}
           />
         </div>
@@ -93,10 +97,11 @@ const Formulario = ({ agregarCita }) => {
           <label>Síntomas:</label>
           <textarea
             value={sintomas}
+            class="u-full-width"
             onChange={(e) => setSintomas(e.target.value)}
           />
         </div>
-        <button type="submit">Agregar Cita</button>
+        <button class="u-full-width" type="submit">Agregar Cita</button>
       </form>
     </div>
   );
